@@ -25,7 +25,7 @@
 /** Général **/
 
 html, body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 
@@ -188,9 +188,10 @@ input{
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    padding:  0 20px 0 0;
     border: 3px solid #F2F2F2;
     height: 50px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 50px;
     font-size: 15px;
     margin: 10px;
     background-color: white;
@@ -200,6 +201,7 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
     width: 52px;
     height: 52px;
     background-color: #DEEBFF;
@@ -218,3 +220,194 @@ input{
 }
 
 /****/
+
+/**Aside**/
+
+aside{
+    padding-bottom: 20px;
+}
+
+aside p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+/**Aside_Photo**/
+
+.photo_hotel_soleil{
+    background-image: url(/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 135px;
+    border-radius: 15px 0 0 15px;
+}
+
+.photo_chambre_hote{
+    background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 135px;
+    border-radius: 15px 0 0 15px;
+}
+
+.photo_hotel_bleublanc{
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 135px;
+    border-radius: 15px 0 0 15px;
+}
+
+/****/
+
+.populaire_titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.populaire_icone_titre{
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+aside{
+    background-color: #F2F2F2;
+}
+
+aside h3, a{
+    color: black;
+}
+
+aside p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.carte_populaire{
+    border-radius: 20px 20px 20px 20px;
+    margin: 15px 5% 0 5%;
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgb(236, 234, 234);
+}
+
+.carte_description{
+    display: flex;
+    padding: 5px;
+}
+
+.photo_description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.evaluation{
+    padding-top: 20px;
+    color: #0065FC;
+}
+
+.grey_star{
+    color: #F2F2F2;
+}
+
+h3{
+    font-size: 17px;
+    margin: 0;
+}
+
+/****/
+
+/**Hébergement**/
+
+.titre_hebergement{
+    padding-top: 10px;
+}
+
+.hebergements_marseille p{
+    font-size: 15px;
+}
+
+/**Hebergement Photo**/
+
+.photo_cannebiere{
+    background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo_hotel_port{
+    background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo_hotel_mouettes{
+    background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo_hotel_mer{
+    background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo_auberge_panier{
+    background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo_hotel_amina{
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+/**/
+
+.carte_hebergement{
+    border-radius: 20px 20px 20px 20px;
+    margin: 5% 5% 0 5%;
+    box-shadow: 0 0 5px 5px rgb(236, 234, 234);
+}
+
+.carte_hebergement_description{
+    padding: 5px;
+}
+
+.hebergement_photo_description{
+    padding: 5px;
+    line-height: 6px;
+}
+
+.hebergement_evaluation{
+    color: #0065FC;
+    padding: 0;
+}
+
+.hebergement_prix_nuit{
+    margin: 0 0 5px 0;
+}
+
