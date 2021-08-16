@@ -1,6 +1,6 @@
 /** Général **/
 
-html, body{
+html, body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
@@ -9,10 +9,10 @@ a{
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
-button{
+button {
     border: none;
 }
 
@@ -20,34 +20,33 @@ button{
 
             /**Header**/
 
-.main_header{
+.titre_recherche {
     margin: 5% 5% 0 5%;
 }            
 
 /*Nav*/
 
-.nav__logo{
+.nav__logo {
     width: 100px;
     height: 50px;
     margin-left: 5%;
 }
 
-nav a{
+nav a {
     color: #0065FC;
     display: block;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.nav_container{
+.nav_container {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
     position: relative;
     flex-wrap: wrap-reverse;
 }
 
-.hebergement_link{
+.hebergement_link {
     width: 50%;
     text-align: center;
     border-bottom: solid 3px #0065FC;
@@ -56,7 +55,7 @@ nav a{
     transition: 0.5s;
 }
 
-.activités_link{
+.activités_link {
     width: 50%;
     text-align: center;
     border-bottom: solid 3px #F2F2F2;
@@ -64,20 +63,20 @@ nav a{
     position: relative;
 }
 
-.inscrire_link{
+.inscrire_link {
     position: relative;
     bottom: 56px;
     margin-right: 5%;
     padding-top: 10px;
     font-weight: bold;
 }
-.activités_link:hover{
+.activités_link:hover {
     border-bottom: solid 3px #0065FC;
 }
 
 /**Titres**/
 
-h1{
+h1 {
     font-size: 1.5em;
     padding-top: 20px;
 }
@@ -90,7 +89,7 @@ h4{
 
 /**Barre de recherche**/
 
-.recherche_txt{
+.recherche_txt {
     font-weight: bold;
 }
 
@@ -103,7 +102,7 @@ h4{
     
 }
 
-.icone_marqueur{
+.icone_marqueur {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +112,7 @@ h4{
     border-radius: 20% 0 0 20%;
 }
 
-.recherche_txt{
+.recherche_txt {
     width: 240px;
 }
 
@@ -213,7 +212,7 @@ aside p{
 /**Aside_Photo**/
 
 .photo_hotel_soleil{
-    background-image: url(/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 135px;
@@ -222,7 +221,7 @@ aside p{
 }
 
 .photo_chambre_hote{
-    background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 135px;
@@ -231,7 +230,7 @@ aside p{
 }
 
 .photo_hotel_bleublanc{
-    background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 135px;
@@ -321,7 +320,7 @@ h3{
 /**Hebergement Photo**/
 
 .photo_cannebiere{
-    background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -329,7 +328,7 @@ h3{
 }
 
 .photo_hotel_port{
-    background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -337,7 +336,7 @@ h3{
 }
 
 .photo_hotel_mouettes{
-    background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -345,7 +344,7 @@ h3{
 }
 
 .photo_hotel_mer{
-    background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -353,7 +352,7 @@ h3{
 }
 
 .photo_auberge_panier{
-    background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -361,7 +360,7 @@ h3{
 }
 
 .photo_hotel_amina{
-    background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -419,7 +418,7 @@ h3{
 /**Photo_activités**/
 
 .photo_vieux_port{
-    background-image: url(/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -427,22 +426,23 @@ h3{
 }
 
 .photo_fort_pomègue{
-    background-image: url(/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
     border-radius: 15px 15px 0 0;
 }
 .photo_iles_frioul{
-    background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 15%;
     height: 110px;
     border-radius: 15px 15px 0 0;
 }
 
 .photo_parc_calanque{
-    background-image: url(/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -450,7 +450,7 @@ h3{
 }
 
 .photo_dame_garde{
-    background-image: url(/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -458,7 +458,7 @@ h3{
 }
 
 .photo_parc_longchamp{
-    background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 110px;
@@ -505,4 +505,236 @@ footer ul{
 .footer_infos{
     width: auto;
     margin-left: 25px;
+}
+
+                        /****Version desktop****/
+
+@media screen and (min-width:992px){
+
+    body {
+        margin: 2% 5% 0 5%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        
+        grid-template-areas: 
+            "header header"
+            "hebergement aside"
+            "activités activités"
+            "footer footer";
+    }
+                        /****header****/
+    header {
+        display: flex;
+        justify-content: space-between;
+        min-height: 130px;
+    }
+
+    .hebergements_marseille {
+        grid-area: hebergement;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    .activités {
+        grid-area: activités;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    .nav_container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    nav  a {
+        padding-top: 50px;
+        position: initial;
+        margin: 20px;
+        width: auto;
+    }
+    
+    .inscrire_link {
+        position:initial;
+        font-weight: normal;
+        padding-top: 50px;
+    }
+
+    .inscrire_link:hover {
+        border-top: solid 3px #0065FC;;
+    }
+
+    .hebergement_link {
+        padding-bottom: 0;
+        border: none;
+        transition: none;
+    }
+
+    .hebergement_link:hover {
+        border-top: solid 3px #0065FC;
+    }
+
+    .activités_link {
+        border-bottom: none;
+        color: black;
+        padding-bottom: 0;
+    }
+
+    .activités_link:hover {
+        border-top: solid 3px #0065FC;
+        border-bottom: none;
+    }
+
+    .nav__logo {
+        padding-top: 50px;
+    }
+
+    .titre_recherche {
+        margin: 0;
+    }
+                        /********/
+
+                        /****Titre et Recherche****/
+
+    h1 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .search_bar {
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .filtres_main {
+        display: flex;
+    }
+    
+    .filtres_main h3 {
+        padding-top: 25px;
+    }
+
+    .recherche_infos {
+        justify-content: initial;
+    }
+    
+                        /********/
+
+                        /****hebergement et populaire****/
+    
+    .hebergements_marseille {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 60px 1fr 1fr;
+        margin-right: 50px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        padding-bottom: 50px;
+    }
+
+    .hebergement_titre {
+        font-size: 12px;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        margin-bottom: 0;
+    }
+
+    .populaire_marseille {
+        border-radius: 20px;
+    }
+
+    aside h2{
+        font-size: 1.2em;
+    }
+
+    .carte_hebergement {
+        background-color: white;
+    }
+
+                        /********/
+
+                        /****Activités****/
+            
+    .activités {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "titre titre titre titre"
+            "port pomegue calanque damegarde"
+            "port pomegue calanque ."
+            "port . calanque longchamp"
+            "port frioul calanque longchamp";
+        max-height: 600px;
+    }
+
+    .titre_activités {
+        padding: 20px 0 10px 20px;
+    }
+
+    .activités_titre {
+        grid-area: titre;
+    }
+
+    .vieux_port {
+        grid-area: port;
+    }
+
+    .photo_vieux_port{
+        height: 400px;
+    }
+
+    .pomegue {
+       grid-area: pomegue;
+    }
+
+    .photo_fort_pomègue {
+        height: 180px;
+    }
+
+    .frioul {
+        grid-area: frioul;
+    }
+
+    .calanques {
+        grid-area: calanque;
+    }
+
+    .photo_parc_calanque {
+        height: 400px;
+    }
+
+    .dame_garde {
+        grid-area: damegarde;
+    }
+
+    .photo_dame_garde {
+        height: 150px;
+    }
+
+    .longchamp {
+        grid-area: longchamp;
+    }
+
+    .photo_parc_longchamp {
+        background-position-y: 20%;
+        height: 150px;
+    }
+                        /*******/
+
+                        /****Footer****/
+                   
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 25%;
+        padding-bottom: 25px;
+    }                    
 }
