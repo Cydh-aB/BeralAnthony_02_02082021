@@ -98,6 +98,7 @@ h4 {
 
 /**Barre de recherche**/
 
+
 .recherche_txt {
     font-weight: bold;
     text-indent: 10%;
@@ -128,7 +129,7 @@ h5 {
 }
 
 .recherche_txt {
-    width: 240px;
+    width: 200px;
 }
 
 input{
@@ -167,6 +168,11 @@ input{
     margin-left: 10px;
 }
 /**Filtres**/
+
+.filtre_titre {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
 .filtres{
     display: flex;
@@ -239,7 +245,7 @@ aside p{
 }
 
 .photo_chambre_hote{
-    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
 }
 
 .photo_hotel_bleublanc{
@@ -483,11 +489,15 @@ footer ul{
 
                         /****Ajustement mobile****/
 
-@media screen and (max-width:699px) {
+@media screen and (max-width:750px) {
     
     .marge_mobile {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    #recherche_desktop {
+        display: none;
     }
 }
 
@@ -528,6 +538,20 @@ footer ul{
 
     .activites {
         grid-area: activités;
+    }
+
+    #recherche_dekstop {
+        display: flex;
+    }
+
+    #recherche_mobile {
+        display: none;
+    }
+
+    .search_bar button {
+        border-radius: 0px 12px 12px 0px;
+        width: 115px;
+        font-size: 16px;
     }
 
     footer {
@@ -614,17 +638,19 @@ footer ul{
     }
 
     .search_bar {
-        max-width: 350px;
+        max-width: 380px;
         margin-bottom: 20px;
     }
 
     .filtres_main {
         display: flex;
+        margin-bottom: 20px;
     }
     
     .filtre_titre {
-       margin-top: 10px;
+       margin-top: 15px;
        padding-top: 10px;
+       margin-right: 20px;
     }
 
     .recherche_infos {
@@ -643,6 +669,9 @@ footer ul{
         background-color: #F2F2F2;
         border-radius: 20px;
         padding-bottom: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
     }
 
     .hebergement_titre {
@@ -745,7 +774,7 @@ footer ul{
     }                    
 }
 
-@media screen and (min-width:700px) and (max-width:992px) {
+@media screen and (min-width:750px) and (max-width:992px) {
 
                         /****Populaire****/
 
@@ -755,6 +784,10 @@ footer ul{
 
     .filtre_titre {
         text-align: center;
+    }
+
+    #recherche_desktop {
+        display: none;
     }
 
     .search_bar {
@@ -804,6 +837,15 @@ footer ul{
         grid-template-columns: repeat(3, 1fr);
         background-color: #F2F2F2;
         border-radius: 20px;
+    }
+
+    .carte_hebergement_description {
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .hebergement_plus {
+        margin-bottom: 20px;
     }
 
     .hebergement_titre {

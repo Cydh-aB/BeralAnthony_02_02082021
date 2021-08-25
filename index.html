@@ -31,14 +31,26 @@
                 <h5>En plein centre ville ou en pleine nature</h5>
             </hgroup>
 
-                <!--barre de recherche-->
+                <!--barre de recherche desktop et tablette-->
 
-            <div class="search_bar marge_mobile">
-                <div class="icone_marqueur"><i class="fas fa-map-marker-alt"></i></div>
-                <div class="champ_recherche"><input class="recherche_txt" type="search" placeholder="Marseille, France"></div>
-                <button type="button"><i class="fas fa-search"></i></button>
+            <div id="recherche_desktop">
+                <div class="search_bar marge_mobile">
+                    <div class="icone_marqueur"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="champ_recherche"><input class="recherche_txt" type="search" placeholder="Marseille, France"></div>
+                    <button type="button">Rechercher</button>
+                </div>   
             </div>
-       
+
+                <!--barre de recherche mobile - cachée en desktop-->
+
+            <div id="recherche_mobile">
+                <div class="search_bar marge_mobile">
+                    <div class="icone_marqueur"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="champ_recherche"><input class="recherche_txt" type="search" placeholder="Marseille, France"></div>
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+                
                 <!--filtres-->
 
             <section class="filtres_main">
